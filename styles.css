@@ -1,0 +1,104 @@
+body {
+    background:#606C38;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0px;
+    padding:0px;}
+
+h1 {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0px;
+    font-size:40px;
+    padding:50px 0px 0px 0px}
+
+button {
+    background:230, 230, 230;
+    border:none;
+    border-radius:10px;
+    padding:17px;
+    font-size:15px;
+    margin:0px;
+    text-align: center;}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align: center;}
+
+li {
+    display:inline-block;
+    margin:10px 15px}
+
+li:hover.frank {
+    background-color:purple}
+
+a {
+    text-decoration: none;
+    color:rgb(78, 0, 78)}
+
+a:hover {
+    text-decoration:underline;}
+
+header {
+    background:#FEFAE0;
+    padding:30px 40px 20px 50px}
+
+section.faqs {
+    background:rgb(216, 226, 220);
+    margin:110px 230px;
+    padding: 0px 50px 20px 50px;
+    border-radius: 25px;
+    line-height:30px;}
+
+section .hair a {
+    text-indent:-9999999px;
+    background-image:url("images/hair.jpeg");
+    background-size:350px;
+    background-repeat:no-repeat;
+    display:inline-block;
+    height:460px;
+    width:350px;
+    position:relative;
+    top:0px}
+
+section .twice a {
+    text-indent:-9999999px;
+    background-image:url("images/twice2.jpg");
+    background-size:350px;
+    background-repeat:no-repeat;
+    display:inline-block;
+    height:530px;
+    width:350px;
+    position:relative;
+    top:0px}
+
+section .bereal a {
+    background-color: red;
+    text-indent:-9999999px;
+    background-image:url("images/bereal.jpg");
+    background-size:700px;
+    background-repeat:no-repeat;
+    display:inline-block;
+    height: 525px;
+    width:350px;
+    position:relative;
+    top:777px;
+    border-radius: 25px;}
+
+button:hover {
+    background:red;}
+
+* {box-sizing: border-box;}
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;}
